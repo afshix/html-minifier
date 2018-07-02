@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text html">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1.0">
+    <meta name="description" content="[cb:blog_meta_description]" />
+    <meta name="keywords" content="[cb:blog_meta_keywords]" />
+    <title>[cb:blog_page_title]</title>
+    <link rel="stylesheet" href="http://file.mihanblog.com//public/user_data/user_files/649/1944575/css/global.css">
+    <link rel="stylesheet" href="http://file.mihanblog.com//public/user_data/user_files/593/1778848/style.css">
+    <link rel="stylesheet" href="http://file.mihanblog.com//public/user_data/user_files/649/1944575/css/mihanblog_theme_icons.css">
+
+    <style>
+    </style>
+<meta name="google-site-verification" content="Tne76L6YSqYfldmrf1mmC8L_NTw27S-vpaoSC0fIljg" /
+<link rel=”author” href=”https://plus.google.com/+TehranMark”>
+<link rel="canonical" href="http://hmdt.ir/">
+</head>
+<body>
+<div class="page-container" id="pageContainer">
+    <div class="menu-sidbar" id="menuSidbar">
+        <div class="logo-media">
+            [cb:blog_logo]
+        </div>
+
+
+        <div class="menu-wrapper">
+            <ul class="sm-item">
+                <li><a class="sid-menu-item" href="[cb:blog_full_address]">صفحه اصلی</a></li>
+                <li><a class="sid-menu-item" href="mailto:[cb:blog_email]"> پست الکترونیک</a></li>
+                <li><a class="sid-menu-item" href="[cb:blog_contact_href]"> تماس با ما : 09187066581</a></li>
+                <li><a class="sid-menu-item" href="[cb:blog_rss_href]">RSS</a></li>
+            </ul>
+            <ul class="menu-social-network">
+                <li class="social-networks-icons">
+                    <a href=""><i class="icon icon-facebook"></i></a>
+                </li>
+                <li class="social-networks-icons">
+                    <a href=""><i class="icon icon-twitter"></i></a>
+                </li>
+                <li class="social-networks-icons">
+                    <a href=""><i class="icon icon-instagram"></i></a>
+                </li>
+                <li class="social-networks-icons">
+                    <a href=""><i class="icon icon-gplus"></i></a>
+                <li class="social-networks-icons">
+                    <a href=""><i class="icon icon-telegram"></i></a>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+
+    <div class="wrap" id="Wrapper">
+        <div class="sidemenu">
+            <div class="exit-rot" onclick="exitMenu()" id="exitRot"></div>
+            <div id="js--rot-menu-icon" class="rot-menu-icon" onclick="openSiteMenu()">
+                <span class="menu-name" id="mName"> منوی اصلی </span>
+                <span class="m-line m-line1" id="mLine1"></span>
+                <span class="m-line m-line2" id="mLine2"></span>
+                <span class="m-line m-line3" id="mLine3"></span>
+            </div>
+
+            <span class="blog-logo">
+                [cb:blog_logo]
+            </span>
+
+
+            <div class="header-field container clearfix">
+
+                <button onclick="openSiteMenu()" class="menu-button">
+                    <span class="icon-barss"></span>
+                    <span class="icon-barss"></span>
+                    <span class="icon-barss"></span>
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="opac" id="pageBd" onclick="exitMenu()"></div>
+
+
+        <div class="header-section">
+            <div class="header-container">
+                <div class="header-wrapper">
+                    <div class="header-content">
+                        <div class="site-title">
+                            [cb:blog_title]
+                        </div>
+                        <div class="blog-slogan">
+                            [cb:blog_slogan]
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="page-section">
+            <div class="gotop" id="goTop" onclick="moveToTop()">
+                <div class="gotop-org"></div>
+                <div class="gotop-hov"></div>
+            </div>
+
+
+            <div class="page clearfix">
+
+
+                <div class="post-column">
+
+                    <cb:block_post>
+                        <div class="post-field clearfix">
+                            <ul>
+                                <cb:loop_post>
+                                    <li id="[cb:post_id]" class="post container clearfix">
+                                        <div class="post-content">
+
+                                            <div class="title clearfix">
+                                                <[cb:post_title_tag] class="post-header">
+                                                    <a href="[cb:post_href]">[cb:post_title]</a>
+                                                </[cb:post_title_tag]>
+                                            </div>
+
+
+
+
+
+                                            <div>
+
+
+                                                <div class="name-and-date">
+                                                    <span class="author-name"><i class="icon icon-user"></i><a href="[cb:post_author_href]">[cb:post_author_name]</a></span>
+                                                    <span class="date"><i class="icon icon-calendar"></i> [cb:post_create_date] [cb:post_create_time]</span>
+                                                    <a class="comment-number" target="_self" href="[cb:post_comment_href_onpage]"><i class="icon icon-comments"></i> [cb:post_comment_text] ([cb:post_comment_count]) </a>
+                                                </div>
+
+
+                                            </div>
+
+
+                                            <div class="content">
+                                                <div class="content-body">
+                                                    [cb:post_body1][cb:post_body2]
+                                                </div>
+                                            </div>
+
+                                            <div class="read-more">
+                                                [cb:post_continue_link]
+                                            </div>
+                                        </div>
+
+
+                                        <div class="bottom-post-side clearfix">
+                                            <div class="clearfix btmpost">
+
+                                                <span class="last-edit"><i class="icon icon-edit"></i>  آخرین ویرایش: [cb:post_edit_date] [cb:post_edit_time] </span>
+                                            </div>
+
+                                            <cb:block_post_tag>
+                                                <div class="post-tag">
+                                                    <!--<span class="">برچسب ها:</span>-->
+                                                    <ul>
+                                                        <i class="icon icon-tags"></i>
+                                                        <cb:loop_post_tag>
+                                                            <li class="tags">
+                                                                <a class="" href="[cb:post_tag_href]">
+                                                                    [cb:post_tag_name]
+                                                                </a>
+                                                            </li>
+                                                        </cb:loop_post_tag>
+                                                    </ul>
+                                                </div>
+                                            </cb:block_post_tag>
+
+                                            <cb:block_post_related_link>
+                                                <div class="post-related-links">
+                                                    <ul>
+                                                        <span><i class="icon icon-link" aria-hidden="true"></i>لینک های مرتبط:</span>
+                                                        <cb:loop_post_related_link>
+                                                            <li class="related-links">
+                                                                <a href="[cb:post_related_link_href]" target="_blank">
+                                                                    [cb:post_related_link_name]
+                                                                </a>
+                                                            </li>
+                                                        </cb:loop_post_related_link>
+                                                    </ul>
+                                                </div>
+                                            </cb:block_post_related_link>
+
+
+                                            <cb:block_post_category>
+                                                <ul class="post-category">
+                                                    <i class="icon icon-folder-open"></i>
+                                                    <cb:loop_post_category>
+                                                        <li class="post-category-floor"><a href="[cb:post_category_href]">[cb:post_category_name]</a></li>
+                                                    </cb:loop_post_category>
+                                                </ul>
+                                            </cb:block_post_category>
+
+
+                                            <a class="send-comment" target="_self" href="[cb:post_href]#commentform"><span> <i class="icon icon-comment"></i> ارسال دیدگاه </span> </a>
+
+
+                                            <div class="post-like clearfix">
+                                                [cb:post_like]
+                                            </div>
+
+                                        </div>
+
+                                    </li>
+
+
+                                    <cb:block_post_comment>
+                                        <div class="comment-content">
+                                            <div class="comment-title">
+                                                <i class="icon icon-comments"></i>
+                                                دیدگاه ها  </div>
+                                            <ul>
+                                                <cb:loop_post_comment>
+                                                    <li class="comment-field">
+                                                        <div class="org-comment">
+                                                            <div class="comment-properties post-desc">
+                                                                <div class="comment-sender author-name">
+                                                                    <a class="" href="[cb:post_comment_senderweb]" target="_blank">
+                                                                        [cb:post_comment_sendername]
+                                                                    </a>
+                                                                </div>
+                                                                <div class="comment-date"><i class="icon icon-calendar"></i> [cb:post_comment_date]</div>
+                                                            </div>
+                                                            <div class="comment-body">
+                                                                [cb:post_comment_body]
+                                                            </div>
+                                                        </div>
+                                                        [cb:post_comment_replystart]
+                                                        <div class="comment-reply-border">
+                                                            <div class="comment-reply">
+                                                                <div class="reply-sender"> <i class="icon icon-reply"></i><span>پاسخ </span> [cb:post_comment_replyname] :</div>
+                                                                <div class="line-beginning">[cb:post_comment_replybody]</div>
+                                                            </div>
+                                                        </div>
+                                                        [cb:post_comment_replyend]
+                                                    </li>
+                                                </cb:loop_post_comment>
+                                            </ul>
+                                        </div>
+                                        <div class="comment-form">
+                                            <a name="commentform"></a>
+                                            <div class="comment-form-title">دیدگاه خود را با ما در میان بگذارید :</div>
+                                            <br/> [cb:post_comment_form]
+                                        </div>
+                                    </cb:block_post_comment>
+                                </cb:loop_post>
+                            </ul>
+                        </div>
+
+
+                        <cb:block_general_list>
+                            <div class="general post container">
+                                <cb:loop_general_list>
+                                    <a href=" [cb:general_list_href]" title=" [cb:general_list_title]">
+                                        [cb:general_list_text]
+                                    </a>
+                                </cb:loop_general_list>
+                            </div>
+                        </cb:block_general_list>
+
+                    </cb:block_post>
+
+
+                    <cb:block_pages>
+                        <div class="page-count container">
+                            <span class="page-total"> تعداد  صفحات : [cb:pages_total]</span>
+                            <cb:loop_pages>
+                                <a href=" [cb:pages_href]"> [cb:pages_no]</a>
+                            </cb:loop_pages>
+                        </div>
+                    </cb:block_pages>
+
+
+                </div>
+
+
+                <div class="left-sidebar container">
+                    <div class="inside-sidebar">
+
+                        <cb:block_search>
+                            <div class="search brpdbottom">
+                                <input class="search-input" type="text" name="search_text" placeholder="جستجو">
+                                <button class="search-button" type="submit" value="[cb:search_button_text]">
+                                    <i class="icon icon-search"></i>
+                                </button>
+                            </div>
+                        </cb:block_search>
+
+
+                        <cb:block_blog_tag_cloud>
+                            <div class="inside-border">
+                                <div class="title-sidebar">ابر برچسب ها</div>
+                                <ul class="s-tags">
+                                    <cb:loop_blog_tag_cloud>
+                                        <li class="blog-tag-cloud">
+                                            <a class="super-tags" href="[cb:blog_tag_cloud_href]">
+                                                [cb:blog_tag_cloud_text]
+                                                <span>([cb:blog_tag_cloud_count])</span>
+                                            </a>
+                                        </li>
+                                    </cb:loop_blog_tag_cloud>
+                                </ul>
+                            </div>
+                        </cb:block_blog_tag_cloud>
+
+
+                        <cb:block_blog_category>
+                            <div class="title-sidebar">آرشیو موضوعی</div>
+                            <div class="inside-border">
+                                <ul>
+                                    <cb:loop_blog_category>
+                                        <li class="link-in-sidebar-float">
+                                            <a class="clearfix category-[cb:blog_category_id]" href="[cb:blog_category_href]">
+                                                [cb:blog_category_name]
+                                                <span class="sidebar-dez">
+
+                                        [cb:blog_category_post_count]
+                                        مطلب
+                                            </span>
+                                            </a>
+                                        </li>
+                                    </cb:loop_blog_category>
+                                </ul>
+                            </div>
+                        </cb:block_blog_category>
+
+
+                        <cb:block_blog_recent_post>
+                            <div class="title-sidebar">آخرین پست ها</div>
+                            <div class="inside-border">
+                                <ul>
+                                    <cb:loop_blog_recent_post>
+                                        <li class="link-in-sidebar">
+                                            <a href="[cb:blog_recent_post_href]">
+                                                <span class="last-posts-asp">[cb:blog_recent_post_text]</span>
+                                                <span class="last-posts-dez">[cb:blog_recent_post_date]</span>
+                                            </a>
+                                        </li>
+                                    </cb:loop_blog_recent_post>
+                                    <li class="link-in-sidebar">
+                                        <a class="clearfix" href="[cb:blog_recent_post_full_list_href]">لیست پست ها</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </cb:block_blog_recent_post>
+
+                        <cb:block_author>
+                            <div class="title-sidebar">نویسندگان</div>
+                            <div class="inside-border block-author">
+                                <ul>
+                                    <cb:loop_author>
+                                        <li>
+                                            <div class="block-author-photo">
+                                                <i class="icon icon-user"></i>
+                                                [cb:author_photo_small]
+                                            </div>
+                                            <a href="[cb:author_href]">
+                                                <div>[cb:author_name]</div><div>مطالب ارسالی: ([cb:author_post_count])</div>
+                                            </a>
+                                            <div style="clear: both">درباره نویسنده :[cb:author_about_me]</div>
+                                        </li>
+                                    </cb:loop_author>
+                                </ul>
+                            </div>
+                        </cb:block_author>
+
+
+                        <cb:block_linkdaily>
+                            <div class="title-sidebar">لینکدونی</div>
+                            <div class="inside-border clearfix">
+                                <ul>
+                                    <cb:loop_linkdaily>
+                                        <li class="link-in-sidebar">
+                                            <a href="[cb:linkdaily_href]" title="[cb:linkdaily_title]" target="_blank">
+                                                [cb:linkdaily_text]
+                                            </a>
+                                        </li>
+                                    </cb:loop_linkdaily>
+                                    <li class="link-in-sidebar">
+                                        <a class="clearfix" href="[cb:linkdaily_full_list_href]">همه لینکها</a>
+                                    </li>
+                                    <a class="button-cc" href="[cb:linkdaily_new_href]">ارسال لینک</a>
+                                </ul>
+                            </div>
+                        </cb:block_linkdaily>
+
+
+                        <cb:block_link>
+                            <div class="title-sidebar">لینکستان</div>
+                            <div class="inside-border">
+                                <ul>
+                                    <cb:loop_link>
+                                        <li class="link-in-sidebar">
+                                            <a href="[cb:link_href]" title="[cb:link_title]"  target="_blank">
+                                                [cb:link_text]
+                                            </a>
+                                        </li>
+                                    </cb:loop_link>
+                                    <li class="link-in-sidebar">
+                                        <a class="clearfix" href="[cb:link_full_list_href]"> همه اینک ها </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </cb:block_link>
+
+
+                        <cb:block_extrapage>
+                            <div class="block-extrapage inside-border">
+                                <div class="title-sidebar">صفحات جانبی</div>
+                                <ul>
+                                    <cb:loop_extrapage>
+                                        <li class="link-in-sidebar">
+                                            <a href="[cb:extrapage_href]">[cb:extrapage_title]</a>
+                                        </li>
+                                    </cb:loop_extrapage>
+                                </ul>
+                            </div>
+                        </cb:block_extrapage>
+
+
+                        <cb:block_poll>
+                            <div class="title-sidebar">نظرسنجی</div>
+                            <div class="inside-border clearfix">
+                                <div class="nolink-sidbar">
+                                    <div class="hr-dashed-rule">[cb:poll_question]</div>
+                                    <ul>
+                                        <cb:loop_poll>
+                                            <li>
+                                                <a href="#">[cb:poll_answer]</a>
+                                            </li>
+                                        </cb:loop_poll>
+                                    </ul>
+                                </div>
+                                <input type="submit" class="button-cc"  value="[cb:poll_button_text]"/>
+                            </div>
+                        </cb:block_poll>
+
+
+                        <div class="block-user-script">
+                            [cb:blog_script]
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <div class="footer container">
+                <div class="bottombar clearfix">
+
+                    <div class="blog-statistics inside-bottombar">
+                        <cb:block_stat>
+                            <div class="title-bottombar">آمار سایت</div>
+                            <ul>
+                                <li class="hr-dashed-rule clearfix"><span class="stat-nums">[cb:stat_total_view]</span><span class="stat-subs">کل بازدید : </span></li>
+                                <li class="hr-dashed-rule clearfix"><span class="stat-nums"> [cb:stat_today_view]</span><span class="stat-subs">بازدید امروز : </span></li>
+                                <li class="hr-dashed-rule clearfix"><span class="stat-nums">[cb:stat_yesterday_view]</span><span class="stat-subs"> بازدید دیروز : </span></li>
+                                <li class="hr-dashed-rule clearfix"><span class="stat-nums">[cb:stat_this_month_view]</span><span class="stat-subs"> بازدید این ماه : </span> </li>
+                                <li class="hr-dashed-rule clearfix"><span class="stat-nums">[cb:stat_last_month_view]</span><span class="stat-subs">بازدید ماه قبل : </span> </li>
+                                <li class="hr-dashed-rule clearfix"><span class="stat-nums"> [cb:stat_total_author]</span><span class="stat-subs">تعداد نویسندگان : </span></li>
+                                <li class="hr-dashed-rule clearfix"><span class="stat-nums">[cb:stat_total_post]</span><span class="stat-subs">تعداد کل مطالب : </span> </li>
+                                <li class="hr-dashed-rule clearfix"><span class="stat-nums">[cb:stat_last_view_date]</span><span class="stat-subs">آخرین بازدید : </span></li>
+                                <li class="hr-dashed-rule clearfix"><span class="stat-nums">[cb:stat_modify_date]</span><span class="stat-subs">آخرین بروز رسانی : </span> </li>
+                            </ul>
+                        </cb:block_stat>
+                    </div>
+
+                    <div class="inside-bottombar insbtm-archive">
+                        <cb:block_blog_archive>
+                            <div class="title-bottombar">آرشیو</div>
+                            <ul>
+                               <h1><a href="http://hmdt.ir/" target="" title="اسکان مسافرین در همدان">اسکان مسافرین در همدان</a></h1><h2><a href="http://hmdt.ir/" target="" title="اجاره سوئیت در همدان">اجاره سوئیت در همدان</a></h2><h3><a href="http://hmdt.ir/" target="" title="کرایه آپارتمان مبله در همدان">کرایه آپارتمان مبله در همدان</a></h3><h4><a href="http://hmdt.ir/" target="" title="اجاره روزانه سوئیت ارزان در همدان">اجاره روزانه سوئیت ارزان در همدان</a></h4><h5><a href="http://hmdt.ir/" target="" title="اجاره ویلا شبانه همدان">اجاره ویلا شبانه همدان</a></h5><h6><a href="http://hmdt.ir/" target="" title="سوئیت منزل همدان">سوئیت منزل همدان</a></h6>
+                    </div>
+
+                    <div class="inside-bottombar">
+                        <div class="about-blog">
+                            <div class="blog-creator">ایجاد شده توسط:
+                                <a href="[cb:blog_author_link]">[cb:blog_author_name]</a>
+                            </div>
+                            <div class="blog-desc">[cb:blog_description]</div>
+                        </div>
+                        <div class="social-networks-footer">
+                            <ul class="icons">
+                                <li class="social-networks-icons">
+                                    <a href="https://www.facebook.com/"><i class="icon icon-facebook"></i></a>
+                                </li>
+                                <li class="social-networks-icons">
+                                    <a href="https://www.pinterest.com/"><i class="icon icon-pinterest"></i></a>
+                                </li>
+                                <li class="social-networks-icons">
+                                    <a href="https://twitter.com/"><i class="icon icon-twitter"></i></a>
+                                </li>
+                                <li class="social-networks-icons">
+                                    <a href="https://www.instagram.com/"><i class="icon icon-instagram"></i></a>
+                                </li>
+                                <li class="social-networks-icons">
+                                    <a href="https://plus.google.com/"><i class="icon icon-gplus"></i></a>
+                                </li>
+                                <li class="social-networks-icons">
+                                    <a href="https://web.telegram.org"><i class="icon icon-telegram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-copyright">
+                    <div class="footer-text">
+                        قدرت گرفته با
+                        <!--<span class="heart">♥</span>-->
+                        <i class="icon icon-heart"></i>
+                        از
+                        <a href="http://hmdt.ir/">
+                            hmdt.ir
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+    function openSiteMenu() {
+        document.getElementById("pageContainer").className += " menu-active";
+    }
+
+    function exitMenu() {
+        document.getElementById("pageContainer").classList.remove("menu-active");
+    }
+
+
+        window.onscroll = function() {
+
+            if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+                document.getElementById("goTop").style.display = 'block';
+            }
+            else {
+                document.getElementById("goTop").style.display = 'none';
+            }
+
+        };
+
+    function moveToTop() {
+        $('html,body').animate({ scrollTop: 0 }, 'slow');
+    };
+
+</script>
+
+
+
+
+</body>
+</html>
